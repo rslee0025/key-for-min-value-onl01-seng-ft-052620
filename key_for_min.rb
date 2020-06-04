@@ -7,5 +7,5 @@
   def key_for_min_value(hash)  
  hash = {:blake => 500, :ashley => 2, :adam => 1}
   hash.reject {|key, value| value > 1}
-  return key_for_min_value
+
   end
